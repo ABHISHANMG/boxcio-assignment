@@ -1,0 +1,133 @@
+.li {
+  list-style-type: none;
+}
+
+.move-sub-list-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.list-sub-heading {
+  font-weight: bold;
+  font-size: 15px;
+  color: #171717;
+  font-family: roboto;
+}
+.list-sub-para {
+  font-weight: 500;
+  font-size: 12px;
+  font-family: roboto;
+  color: #8a8a8a;
+}
+
+.address-sub-container {
+  width: 300px;
+  flex-wrap: wrap;
+}
+
+.move-route-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.move-route-sub-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.move-route-sub-heading {
+  font-weight: 400;
+  font-size: 15px;
+  color: #171717;
+  font-family: roboto;
+  margin-left: 10px;
+}
+
+.estimated-id {
+  color: #e32227;
+}
+
+.input {
+  accent-color: #e32227;
+  width: 15px;
+  height: 15px;
+}
+
+.view-more-btn {
+  border-radius: 5px;
+  border: 2px solid #e32227;
+  color: #e32227;
+  padding: 10px;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: roboto;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.quote-await-btn {
+  border-radius: 5px;
+  border: 2px solid #e32227;
+  color: white;
+  padding: 10px;
+  background-color: #e32227;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: roboto;
+  cursor: pointer;
+}
+
+.horizontal-line {
+  width: 100%;
+}
+
+.move-span {
+  font-weight: 400;
+  font-size: 15px;
+  color: #171717;
+  font-family: roboto;
+  margin-left: 10px;
+}
+
+.move-declaimer-container {
+  display: flex;
+  align-items: center;
+}
+
+.addition-info-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toggle-container {
+  margin-top: 20px;
+}
+
+.red-heading {
+  color: #e32227;
+}
+
+.edit-additional-btn {
+  border-radius: 5px;
+  border-width: 0px;
+  color: white;
+  padding: 10px;
+  background-color: black;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: roboto;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.addition-info-container-margin {
+  margin-bottom: 10px;
+}
+.unordered-move-container {
+  padding-left: 0px;
+}

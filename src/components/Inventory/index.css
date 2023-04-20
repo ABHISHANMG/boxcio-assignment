@@ -1,0 +1,40 @@
+.list-inventory-toggle-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+.inventory-Heading {
+  color: #e32227;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: roboto;
+}
+
+.inventory-toggle-btn {
+  background-color: #cfd0bc;
+  outline-width: 0px;
+  border-width: 0px;
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  width: 100%;
+}
+.unordered-inventory-container {
+  display: flex;
+  justify-content: space-between;
+
+  padding-left: 0px;
+}
+
+.quantity-span {
+  background-color: #e32227;
+  border-radius: 50px;
+  color: white;
+  padding: 5px;
+}

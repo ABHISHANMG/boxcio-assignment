@@ -1,0 +1,50 @@
+.home-container {
+  padding: 10px;
+  display: flex;
+}
+
+.dash-board-container {
+  width: 180px;
+}
+
+.tab-name {
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.tab-btn {
+  background-color: transparent;
+  border-width: 0px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.display-container {
+  margin-left: 10px;
+  width: 100%;
+}
+
+.heading-name {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 30px;
+}
+.address-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0px;
+}
+
+.ul {
+  width: 100%;
+  padding-left: 0px;
+}
+
+.active-btn {
+  border-left: 2px solid #e32227;
+}
